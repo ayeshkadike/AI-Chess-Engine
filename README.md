@@ -1,5 +1,5 @@
 # AI-PvP-Chess-Engine
-Created an AI Engine that lets you play chess with an AI (In beta so a lot of bugs will exist).
+Created an AI Engine that lets you play chess with an AI or another person (In beta so a lot of bugs will exist).
 
 Entry point throught MAIN.py
 
