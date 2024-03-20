@@ -3,13 +3,12 @@ package main;
 import javax.swing.*;
 import java.awt.*;
 
-public class Main
-{
+public class Main {
 
-    public final static boolean ai_vs_ai = false;
+    public final static boolean ai_verses_ai = false;
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
+
         JFrame frame = new JFrame();
         frame.setLayout(new GridBagLayout());
         frame.getContentPane().setBackground(Color.gray);
@@ -28,13 +27,34 @@ public class Main
 
         frame.setVisible(true);
 
-        if (ai_vs_ai)
+        if (ai_verses_ai)
             board.ai.aiMove();
 
-        if (!ai_verses_ai)
-        {
+        if (!ai_verses_ai) {
             board.addListeners();
         }
         board.repaint();
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
