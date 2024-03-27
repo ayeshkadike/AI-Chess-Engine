@@ -178,7 +178,7 @@ public class Board extends JPanel {
                     if (piece != null)
                         g2d.drawImage(piece.sprite, piece.xPos, piece.yPos, null);
             } catch (ConcurrentModificationException cme) {
-                System.out.println("fuck");
+                System.out.println("error");
             }
         }
         if (!gameState.equals("")) {
